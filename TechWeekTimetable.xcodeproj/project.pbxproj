@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		711EAD6718C4F0C500342133 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711EAD6618C4F0C500342133 /* Foundation.framework */; };
+		711EAD6918C4F0C500342133 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711EAD6818C4F0C500342133 /* CoreGraphics.framework */; };
+		711EAD6B18C4F0C500342133 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711EAD6A18C4F0C500342133 /* UIKit.framework */; };
+		711EAD7118C4F0C500342133 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 711EAD6F18C4F0C500342133 /* InfoPlist.strings */; };
+		711EAD7318C4F0C500342133 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 711EAD7218C4F0C500342133 /* main.m */; };
+		711EAD7718C4F0C500342133 /* TWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 711EAD7618C4F0C500342133 /* TWAppDelegate.m */; };
+		711EAD7A18C4F0C500342133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 711EAD7818C4F0C500342133 /* Main.storyboard */; };
+		711EAD7D18C4F0C500342133 /* TWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 711EAD7C18C4F0C500342133 /* TWViewController.m */; };
+		711EAD7F18C4F0C500342133 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 711EAD7E18C4F0C500342133 /* Images.xcassets */; };
+		711EAD8618C4F0C500342133 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711EAD8518C4F0C500342133 /* XCTest.framework */; };
+		711EAD8718C4F0C500342133 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711EAD6618C4F0C500342133 /* Foundation.framework */; };
+		711EAD8818C4F0C500342133 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711EAD6A18C4F0C500342133 /* UIKit.framework */; };
+		711EAD9018C4F0C500342133 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 711EAD8E18C4F0C500342133 /* InfoPlist.strings */; };
+		711EAD9218C4F0C500342133 /* TechWeekTimetableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 711EAD9118C4F0C500342133 /* TechWeekTimetableTests.m */; };
+		711EAD9C18C4F0D400342133 /* timetable.json in Resources */ = {isa = PBXBuildFile; fileRef = 711EAD9B18C4F0D400342133 /* timetable.json */; };
+		711EAD9F18C4F3A700342133 /* TWTalkTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 711EAD9E18C4F3A700342133 /* TWTalkTableViewCell.m */; };
+		711EADA218C4FE3600342133 /* TWTalkDayTableViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 711EADA118C4FE3600342133 /* TWTalkDayTableViewHeader.m */; };
+		711EADA418C4FE5300342133 /* TWTalkDayTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 711EADA318C4FE5300342133 /* TWTalkDayTableViewHeader.xib */; };
+		711EADA718C50C9A00342133 /* TWFullTalkTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 711EADA618C50C9A00342133 /* TWFullTalkTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		711EAD8918C4F0C500342133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 711EAD5B18C4F0C500342133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 711EAD6218C4F0C500342133;
+			remoteInfo = TechWeekTimetable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		711EAD6318C4F0C500342133 /* TechWeekTimetable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechWeekTimetable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		711EAD6618C4F0C500342133 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		711EAD6818C4F0C500342133 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		711EAD6A18C4F0C500342133 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		711EAD6E18C4F0C500342133 /* TechWeekTimetable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TechWeekTimetable-Info.plist"; sourceTree = "<group>"; };
+		711EAD7018C4F0C500342133 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		711EAD7218C4F0C500342133 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		711EAD7418C4F0C500342133 /* TechWeekTimetable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TechWeekTimetable-Prefix.pch"; sourceTree = "<group>"; };
+		711EAD7518C4F0C500342133 /* TWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWAppDelegate.h; sourceTree = "<group>"; };
+		711EAD7618C4F0C500342133 /* TWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWAppDelegate.m; sourceTree = "<group>"; };
+		711EAD7918C4F0C500342133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		711EAD7B18C4F0C500342133 /* TWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWViewController.h; sourceTree = "<group>"; };
+		711EAD7C18C4F0C500342133 /* TWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWViewController.m; sourceTree = "<group>"; };
+		711EAD7E18C4F0C500342133 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		711EAD8418C4F0C500342133 /* TechWeekTimetableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechWeekTimetableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		711EAD8518C4F0C500342133 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		711EAD8D18C4F0C500342133 /* TechWeekTimetableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TechWeekTimetableTests-Info.plist"; sourceTree = "<group>"; };
+		711EAD8F18C4F0C500342133 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		711EAD9118C4F0C500342133 /* TechWeekTimetableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TechWeekTimetableTests.m; sourceTree = "<group>"; };
+		711EAD9B18C4F0D400342133 /* timetable.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = timetable.json; path = ../timetable.json; sourceTree = "<group>"; };
+		711EAD9D18C4F3A700342133 /* TWTalkTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTalkTableViewCell.h; sourceTree = "<group>"; };
+		711EAD9E18C4F3A700342133 /* TWTalkTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTalkTableViewCell.m; sourceTree = "<group>"; };
+		711EADA018C4FE3600342133 /* TWTalkDayTableViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTalkDayTableViewHeader.h; sourceTree = "<group>"; };
+		711EADA118C4FE3600342133 /* TWTalkDayTableViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTalkDayTableViewHeader.m; sourceTree = "<group>"; };
+		711EADA318C4FE5300342133 /* TWTalkDayTableViewHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TWTalkDayTableViewHeader.xib; sourceTree = "<group>"; };
+		711EADA518C50C9A00342133 /* TWFullTalkTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWFullTalkTableViewCell.h; sourceTree = "<group>"; };
+		711EADA618C50C9A00342133 /* TWFullTalkTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWFullTalkTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		711EAD6018C4F0C500342133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711EAD6918C4F0C500342133 /* CoreGraphics.framework in Frameworks */,
+				711EAD6B18C4F0C500342133 /* UIKit.framework in Frameworks */,
+				711EAD6718C4F0C500342133 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711EAD8118C4F0C500342133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711EAD8618C4F0C500342133 /* XCTest.framework in Frameworks */,
+				711EAD8818C4F0C500342133 /* UIKit.framework in Frameworks */,
+				711EAD8718C4F0C500342133 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		711EAD5A18C4F0C500342133 = {
+			isa = PBXGroup;
+			children = (
+				711EAD6C18C4F0C500342133 /* TechWeekTimetable */,
+				711EAD8B18C4F0C500342133 /* TechWeekTimetableTests */,
+				711EAD6518C4F0C500342133 /* Frameworks */,
+				711EAD6418C4F0C500342133 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		711EAD6418C4F0C500342133 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				711EAD6318C4F0C500342133 /* TechWeekTimetable.app */,
+				711EAD8418C4F0C500342133 /* TechWeekTimetableTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		711EAD6518C4F0C500342133 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				711EAD6618C4F0C500342133 /* Foundation.framework */,
+				711EAD6818C4F0C500342133 /* CoreGraphics.framework */,
+				711EAD6A18C4F0C500342133 /* UIKit.framework */,
+				711EAD8518C4F0C500342133 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		711EAD6C18C4F0C500342133 /* TechWeekTimetable */ = {
+			isa = PBXGroup;
+			children = (
+				711EAD7518C4F0C500342133 /* TWAppDelegate.h */,
+				711EAD7618C4F0C500342133 /* TWAppDelegate.m */,
+				711EAD7818C4F0C500342133 /* Main.storyboard */,
+				711EAD9D18C4F3A700342133 /* TWTalkTableViewCell.h */,
+				711EAD9E18C4F3A700342133 /* TWTalkTableViewCell.m */,
+				711EADA518C50C9A00342133 /* TWFullTalkTableViewCell.h */,
+				711EADA618C50C9A00342133 /* TWFullTalkTableViewCell.m */,
+				711EAD7B18C4F0C500342133 /* TWViewController.h */,
+				711EAD7C18C4F0C500342133 /* TWViewController.m */,
+				711EADA018C4FE3600342133 /* TWTalkDayTableViewHeader.h */,
+				711EADA118C4FE3600342133 /* TWTalkDayTableViewHeader.m */,
+				711EADA318C4FE5300342133 /* TWTalkDayTableViewHeader.xib */,
+				711EAD7E18C4F0C500342133 /* Images.xcassets */,
+				711EAD6D18C4F0C500342133 /* Supporting Files */,
+			);
+			path = TechWeekTimetable;
+			sourceTree = "<group>";
+		};
+		711EAD6D18C4F0C500342133 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				711EAD9B18C4F0D400342133 /* timetable.json */,
+				711EAD6E18C4F0C500342133 /* TechWeekTimetable-Info.plist */,
+				711EAD6F18C4F0C500342133 /* InfoPlist.strings */,
+				711EAD7218C4F0C500342133 /* main.m */,
+				711EAD7418C4F0C500342133 /* TechWeekTimetable-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		711EAD8B18C4F0C500342133 /* TechWeekTimetableTests */ = {
+			isa = PBXGroup;
+			children = (
+				711EAD9118C4F0C500342133 /* TechWeekTimetableTests.m */,
+				711EAD8C18C4F0C500342133 /* Supporting Files */,
+			);
+			path = TechWeekTimetableTests;
+			sourceTree = "<group>";
+		};
+		711EAD8C18C4F0C500342133 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				711EAD8D18C4F0C500342133 /* TechWeekTimetableTests-Info.plist */,
+				711EAD8E18C4F0C500342133 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		711EAD6218C4F0C500342133 /* TechWeekTimetable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 711EAD9518C4F0C500342133 /* Build configuration list for PBXNativeTarget "TechWeekTimetable" */;
+			buildPhases = (
+				711EAD5F18C4F0C500342133 /* Sources */,
+				711EAD6018C4F0C500342133 /* Frameworks */,
+				711EAD6118C4F0C500342133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TechWeekTimetable;
+			productName = TechWeekTimetable;
+			productReference = 711EAD6318C4F0C500342133 /* TechWeekTimetable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		711EAD8318C4F0C500342133 /* TechWeekTimetableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 711EAD9818C4F0C500342133 /* Build configuration list for PBXNativeTarget "TechWeekTimetableTests" */;
+			buildPhases = (
+				711EAD8018C4F0C500342133 /* Sources */,
+				711EAD8118C4F0C500342133 /* Frameworks */,
+				711EAD8218C4F0C500342133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				711EAD8A18C4F0C500342133 /* PBXTargetDependency */,
+			);
+			name = TechWeekTimetableTests;
+			productName = TechWeekTimetableTests;
+			productReference = 711EAD8418C4F0C500342133 /* TechWeekTimetableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		711EAD5B18C4F0C500342133 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TW;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Robert Lis";
+				TargetAttributes = {
+					711EAD8318C4F0C500342133 = {
+						TestTargetID = 711EAD6218C4F0C500342133;
+					};
+				};
+			};
+			buildConfigurationList = 711EAD5E18C4F0C500342133 /* Build configuration list for PBXProject "TechWeekTimetable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 711EAD5A18C4F0C500342133;
+			productRefGroup = 711EAD6418C4F0C500342133 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				711EAD6218C4F0C500342133 /* TechWeekTimetable */,
+				711EAD8318C4F0C500342133 /* TechWeekTimetableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		711EAD6118C4F0C500342133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711EAD7F18C4F0C500342133 /* Images.xcassets in Resources */,
+				711EADA418C4FE5300342133 /* TWTalkDayTableViewHeader.xib in Resources */,
+				711EAD9C18C4F0D400342133 /* timetable.json in Resources */,
+				711EAD7118C4F0C500342133 /* InfoPlist.strings in Resources */,
+				711EAD7A18C4F0C500342133 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711EAD8218C4F0C500342133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711EAD9018C4F0C500342133 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		711EAD5F18C4F0C500342133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711EAD7318C4F0C500342133 /* main.m in Sources */,
+				711EAD7718C4F0C500342133 /* TWAppDelegate.m in Sources */,
+				711EAD9F18C4F3A700342133 /* TWTalkTableViewCell.m in Sources */,
+				711EAD7D18C4F0C500342133 /* TWViewController.m in Sources */,
+				711EADA218C4FE3600342133 /* TWTalkDayTableViewHeader.m in Sources */,
+				711EADA718C50C9A00342133 /* TWFullTalkTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711EAD8018C4F0C500342133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711EAD9218C4F0C500342133 /* TechWeekTimetableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		711EAD8A18C4F0C500342133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 711EAD6218C4F0C500342133 /* TechWeekTimetable */;
+			targetProxy = 711EAD8918C4F0C500342133 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		711EAD6F18C4F0C500342133 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				711EAD7018C4F0C500342133 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		711EAD7818C4F0C500342133 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				711EAD7918C4F0C500342133 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		711EAD8E18C4F0C500342133 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				711EAD8F18C4F0C500342133 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		711EAD9318C4F0C500342133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		711EAD9418C4F0C500342133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		711EAD9618C4F0C500342133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TechWeekTimetable/TechWeekTimetable-Prefix.pch";
+				INFOPLIST_FILE = "TechWeekTimetable/TechWeekTimetable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		711EAD9718C4F0C500342133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TechWeekTimetable/TechWeekTimetable-Prefix.pch";
+				INFOPLIST_FILE = "TechWeekTimetable/TechWeekTimetable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		711EAD9918C4F0C500342133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TechWeekTimetable.app/TechWeekTimetable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TechWeekTimetable/TechWeekTimetable-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TechWeekTimetableTests/TechWeekTimetableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		711EAD9A18C4F0C500342133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TechWeekTimetable.app/TechWeekTimetable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TechWeekTimetable/TechWeekTimetable-Prefix.pch";
+				INFOPLIST_FILE = "TechWeekTimetableTests/TechWeekTimetableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		711EAD5E18C4F0C500342133 /* Build configuration list for PBXProject "TechWeekTimetable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711EAD9318C4F0C500342133 /* Debug */,
+				711EAD9418C4F0C500342133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		711EAD9518C4F0C500342133 /* Build configuration list for PBXNativeTarget "TechWeekTimetable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711EAD9618C4F0C500342133 /* Debug */,
+				711EAD9718C4F0C500342133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		711EAD9818C4F0C500342133 /* Build configuration list for PBXNativeTarget "TechWeekTimetableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711EAD9918C4F0C500342133 /* Debug */,
+				711EAD9A18C4F0C500342133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 711EAD5B18C4F0C500342133 /* Project object */;
+}

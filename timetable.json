@@ -1,0 +1,129 @@
+ [
+      {
+      "id": "1",
+      "title": "Tech Week:Activate",
+      "time": "2014-03-03 12:00:00",
+      "venue": "Old Bar",
+      "blurb": "Get ready to have your circuits fried as we press the GO button! Launching the DCU Tech week into your minds, networks and hearts. This week is a celebration of all thing Technology and we have lots of inspirational events lined up for you tech addicts! #TechWeekDCU"
+      },
+      {
+      "id": "2",
+      "title": "3D Modelling - Blender for Beginners",
+      "time": "2014-03-03 15:00:00",
+      "venue": "LG26",
+      "blurb": "Dave Larkan is a previous chairperson of redbrick and is a very talented individual, he has run some very successful workshops on similar topics before. This will be an introductory workshop to the fantastic free and open source 3D modelling tool that is Blender<\/a>. You will be amazed at how quickly you can learn to build graphical 3D objects under Dave's guidance. This workshop\/lab normally fills up quite quickly, bring a laptop with blender installed just to be sure you can take part. This is open to all and requires no previous knowledge of blender or 3D Modelling!"
+      },
+      {
+      "id": "3",
+      "title": "Web Development 101",
+      "time": "2014-03-03 17:00:00",
+      "venue": "Old Bar",
+      "blurb": "Max Hoffman is a wise and greatly experienced web developer with a keen eye for smart design. He will be taking us through the ins and outs of web design, focusing on techniques and tricks that help your site stand out above the rest. This is a very useful talk for those new to web design or development or even those familiar with it but looking for helpful tips from an expert."
+      },
+      {
+      "id": "24",
+      "title": "Intro to Mobile Development (iOS and Android)",
+      "time": "2014-03-04 13:00:00",
+      "venue": "Old Bar",
+      "blurb": "Dan Malone and Robert Lis are two extremely smart and talented Software developers. They are also 4th year CA students. They will be taking us through the very basics of mobile development on different platforms, comparing the two and possibly arguing about which is the better platform. Could you make the next flappy bird?"
+      },
+      {
+      "id": "25",
+      "title": "Awesome Raspberry Pi Projects",
+      "time": "2014-03-04 15:00:00",
+      "venue": "Old Bar",
+      "blurb": "We have some Awesome, smart and resourceful people lined up to show off Raspberry pi projects they have worked on. Ranging from Industrial monitoring equipment to Car dashboard hacking. You are guaranteed to see something inspirational or interesting here. If you have a cool project of your own, bring it along! This is an opportunity to show it to the world."
+      },
+      {
+      "id": "26",
+      "title": "Screening",
+      "time": "2014-03-04 17:00:00",
+      "venue": "Old Bar",
+      "blurb": "If you haven't already seen We are Legion: How hackers changed the world you are in for a treat. Plenty of treats\/pizzas to go along with this documentary movie!Don't forget your Guy Fawkes masks :)"
+      },
+      
+      {
+      "id": "36",
+      "title": "Virtualisation ",
+      "time": "2014-03-05 14:00:00",
+      "venue": "Old Bar",
+      "blurb": "Director of Engineering at Openet Niall O'Connell comes in to talk about Virtualisation answering questions such as \r\n\"Why you would want to virtualise network systems in the first place?\", \"What advantages you can expect from doing that?\". With the role virtualisation plays in the modern computing industry, this talk is a must for any student of computing or engineering.talk is the first of a series that Openet are providing DCU in the coming weeks.<\/p>\r\n"
+      },
+      {
+      "id": "37",
+      "title": "Coding Competition",
+      "time": "2014-03-05 15:00:00",
+      "venue": "L101",
+      "blurb": "Last year's Openet Coding Competition saw five of the sixteen competitors receiving job offers following the event. This time around, Openet are offering a cash prize of €1,000 for the winner, and €500 for the runners up. This event is a must for anyone looking into a career in computing. You can find more information and sign up here<\/a>."
+      },
+      {
+      "id": "38",
+      "title": "Coding Competition Results",
+      "time": "2014-03-05 17:00:00",
+      "venue": "NuBar",
+      "blurb": "Openet are offering free drinks and food in NuBar after the competition to all taking part. Joe Hogan, founder of Openet and graduate of DCU will be there to announce the winners of the competition."
+      },
+      {
+      "id": "39",
+      "title": "Accenture Tech Talk",
+      "time": "2014-03-06 14:00:00",
+      "venue": "Old Bar",
+      "blurb": null
+      },
+      {
+      "id": "40",
+      "title": "Building AWS Cloudfront",
+      "time": "2014-03-06 15:00:00",
+      "venue": "Old Bar",
+      "blurb": "The epic tale of how one young software engineer from Wicklow and another\r\nnot-quite-so-young systems engineer from Wicklow ended up building the\r\nrequest routing system for the AWS content delivery network, Amazon\r\nCloudfront."
+      },
+      {
+      "id": "47",
+      "title": "Test Driven Development",
+      "time": "2014-03-06 16:00:00",
+      "venue": "Old Bar",
+      "blurb": "Amazon talks to us about Test Driven Development, a highly sought after skill in graduates seeking a career in the field of software engineering. These are the techniques employed to guarantee you create higher quality software and code."
+      },
+      {
+      "id": "43",
+      "title": "How does your broadband actually work?",
+      "time": "2014-03-06 17:00:00",
+      "venue": "Old Bar",
+      "blurb": "Redbrick Associate Colin Whittaker joins us again this year after his excellent talk last year: \"How the Internet Works\". What really happens to your packets once they leave your house? In this \"choose your own adventure\" style talk we will investigate how ISP access networks are really built! This is sure to be an interesting and informative discussion, regardless of your experience in computing."
+      },
+      {
+      "id": "44",
+      "title": "Meet with Amazon Engineers and Recruitment",
+      "time": "2014-03-06 18:00:00",
+      "venue": "NuBar",
+      "blurb": "To round off the day, some of Amazon's engineers will be over in in NuBar after the talks. This is a great opportunity to rub-shoulders with some industry professionals. Bring your CVs, they're hiring!"
+      },
+      {
+      "id": "54",
+      "title": "Web Security Attactics",
+      "time": "2014-03-07 14:00:00",
+      "venue": "Old Bar",
+      "blurb": "Ciaran McNally is a current Redbrick Administrator, he has uncovered security bugs in products such as Moodle and to companies such as Yahoo. This talk will take you through the basics of common web \r\nsecurity attacks, how they occur, how to exploit them, the risks, dangers and why you should be aware of them. \r\nAll with real-world \"grey-hat\" examples. This is an introductory talk, essential for web developers or anyone interested in how websites get attacked and compromised."
+      },
+      {
+      "id": "55",
+      "title": "Log analysis & Intrusion Detection",
+      "time": "2014-03-07 14:30:00",
+      "venue": "Old Bar",
+      "blurb": "Richard Dalton is a talented security consultant with Rits security group. He will be taking us through some defensive security measures you could employ to prevent or alert yourself of intrusions or hack attempts.These are essential skills in protecting yourself or your digital assets. This talk is very useful for system administrators, developers and web site owners."
+      },
+      {
+      "id": "56",
+      "title": "Challenges in malware reverse engineering",
+      "time": "2014-03-07 15:00:00",
+      "venue": "Old Bar",
+      "blurb": "Andrea Lelli is a Senior Reverse engineer and Malware expert working with \r\nSymantec. This talk will explain how computer threats are analyzed,\r\nThe challenges that are faced, what the folk in Symantec do on a daily \r\nbasis. These topics will all be explained using some recent examples. This talk is amateur friendly, it's an introductory talk about reverse engineering."
+      },
+      {
+      "id": "57",
+      "title": "E-Crime, Cyber Espionage and War",
+      "time": "2014-03-07 16:00:00",
+      "venue": "Old Bar",
+      "blurb": "Alan Neville is also a Senior Reverse Engineer and Malware expert working in Symantec. This talk will follow up on Andrea's with a higher level view of where reverse engineering fits into a malware attack response team. This will use real world case studies, Providing expert insight into threat analysis and some of the massive cyber attacks we would never otherwise hear about."
+      }
+  ]

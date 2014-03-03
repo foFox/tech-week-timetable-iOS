@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5051" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TWTalkDayTableViewHeader">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monday" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FiN-U4-pfN">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="25"/>
+                    <color key="textColor" red="0.46274513010000001" green="0.78039222959999999" blue="0.1411764771" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <progressView opaque="NO" alpha="0.5" contentMode="scaleToFill" verticalHuggingPriority="750" misplaced="YES" progress="1" translatesAutoresizingMaskIntoConstraints="NO" id="8rF-gl-YDv">
+                    <rect key="frame" x="0.0" y="79" width="320" height="1"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="pQc-nT-zWa"/>
+                    </constraints>
+                    <color key="progressTintColor" red="0.46274513010000001" green="0.78039222959999999" blue="0.1411764771" alpha="1" colorSpace="deviceRGB"/>
+                </progressView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="8rF-gl-YDv" secondAttribute="trailing" id="2W5-Z6-9fR"/>
+                <constraint firstAttribute="bottom" secondItem="8rF-gl-YDv" secondAttribute="bottom" id="Ewn-26-L4u"/>
+                <constraint firstItem="FiN-U4-pfN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="KQI-Rd-LJs"/>
+                <constraint firstAttribute="bottom" secondItem="FiN-U4-pfN" secondAttribute="bottom" id="XFR-Cm-ybv"/>
+                <constraint firstItem="FiN-U4-pfN" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Y7g-Dz-puH"/>
+                <constraint firstAttribute="trailing" secondItem="FiN-U4-pfN" secondAttribute="trailing" id="b0H-2J-mEL"/>
+                <constraint firstItem="8rF-gl-YDv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="cAS-eI-JYC"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="dayLabel" destination="FiN-U4-pfN" id="ODV-WL-vIY"/>
+            </connections>
+        </view>
+    </objects>
+</document>
